@@ -22,25 +22,29 @@
 }
 .text-item {
   width: 270px;
+
+  &:not(:nth-child(4n)) {
+    margin-right: 30px;
+  }
+
+  &::before {
+    display: block;
+    content: "";
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+
+    background-repeat: no-repeat;
+    background-color: #f5f4fa;
+    background-size: 65px 70px;
+    background-position: center;
+  }
 }
-.text-item:not(:nth-child(4n)) {
-  margin-right: 30px;
-}
+
 .text .container {
   justify-content: center;
 }
-.text-item::before {
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
 
-  background-repeat: no-repeat;
-  background-color: #f5f4fa;
-  background-size: 65px 70px;
-  background-position: center;
-}
 .icon-antenna::before {
   background-image: url(../images/antenna.svg);
 }

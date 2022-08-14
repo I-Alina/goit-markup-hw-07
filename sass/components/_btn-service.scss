@@ -14,8 +14,9 @@
   color: var(--local-color);
   background-color: var(--second-header-color);
   cursor: pointer;
-}
-.title-btn:hover,
-.title-btn:focus {
-  color: var(--local-color);
+
+  &:hover,
+  &:focus {
+    color: var(--local-color);
+  }
 }

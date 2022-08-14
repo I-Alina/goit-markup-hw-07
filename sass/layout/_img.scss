@@ -12,15 +12,17 @@
 }
 .img-item {
   display: block;
+
+  &:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
 }
 .img-list {
   display: flex;
   margin-left: auto;
   margin-right: auto;
 }
-.img-item:not(:nth-child(3n)) {
-  margin-right: 30px;
-}
+
 .img-slogan {
   position: relative;
 }

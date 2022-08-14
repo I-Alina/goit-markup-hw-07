@@ -8,10 +8,12 @@
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--local-color);
+
+  &-title {
+    margin-bottom: 20px;
+  }
 }
-.mailing-list-title {
-  margin-bottom: 20px;
-}
+
 .form-mailing {
   display: flex;
 }
@@ -26,9 +28,10 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: #2f303a;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.input-mailing:focus {
-  border: 1px solid var(--second-header-color);
-  outline: transparent;
-  color: var(--local-color);
+
+  &:focus {
+    border: 1px solid var(--second-header-color);
+    outline: transparent;
+    color: var(--local-color);
+  }
 }
