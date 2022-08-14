@@ -1,0 +1,55 @@
+.text {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #ffffff;
+}
+.text-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.text-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.text-list {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-item {
+  width: 270px;
+}
+.text-item:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+.text .container {
+  justify-content: center;
+}
+.text-item::before {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-repeat: no-repeat;
+  background-color: #f5f4fa;
+  background-size: 65px 70px;
+  background-position: center;
+}
+.icon-antenna::before {
+  background-image: url(../images/antenna.svg);
+}
+.icon-clock::before {
+  background-image: url(../images/clock.svg);
+}
+.icon-laptop::before {
+  background-image: url(../images/after-hero-laptop.svg);
+}
+.icon-astronaut::before {
+  background-image: url(../images/astronaut.svg);
+}

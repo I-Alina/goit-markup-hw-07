@@ -1,0 +1,44 @@
+.img {
+  padding-top: 0;
+  padding-bottom: 94px;
+  background-color: #ffffff;
+}
+.img-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.img-item {
+  display: block;
+}
+.img-list {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+.img-slogan {
+  position: relative;
+}
+.slogan-text {
+  display: flex;
+  width: 370px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--local-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
