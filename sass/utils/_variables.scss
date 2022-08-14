@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+:root {
+  --header-color: #757575;
+  --main-title-color: #212121;
+  --second-header-color: #2196f3;
+  --local-color: #ffffff;
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.list {
+  margin: 0;
+  padding-left: 0;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+span {
+  color: var(--main-title-color);
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.link {
+  text-decoration: none;
+}
+.title-title {
+  color: var(--local-color);
+}
+.img-title,
+.text-title,
+.aside-title,
+.content-subtitle a,
+.aside-subtitle,
+.commercial-title {
+  color: var(--main-title-color);
+}
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.text,
+.img {
+  background-color: #e5e5e5;
+}
+.portfolio-btn {
+  cursor: pointer;
+}
+button {
+  border: 1px solid transparent;
+}
