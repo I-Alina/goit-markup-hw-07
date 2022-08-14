@@ -1,0 +1,13 @@
+.footer {
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-all {
+  display: flex;
+  align-items: baseline;
+}
+.footer-info {
+  flex-grow: 1;
+  margin-right: 70px;
+}

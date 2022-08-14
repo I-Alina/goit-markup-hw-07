@@ -1,0 +1,15 @@
+.portfolio-filter {
+  padding-top: 100px;
+  padding-bottom: 94px;
+}
+
+.portfolio-list {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.portfolio-item:not(:nth-child(5n)) {
+  margin-right: 8px;
+}
