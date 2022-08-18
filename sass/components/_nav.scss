@@ -30,10 +30,11 @@
 }
 .nav-list {
   display: flex;
+  li:not(:last-child) {
+    margin-right: 50px;
+  }
 }
-.nav-list li:not(:last-child) {
-  margin-right: 50px;
-}
+
 .nav-link a {
   display: block;
   padding-top: 32px;
