@@ -1,0 +1,11 @@
+.logo-h,
+.logo-f {
+  color: var(--second-header-color);
+  text-decoration: none;
+}
+.logo-f {
+  display: inline-block;
+}
+.logo-f span {
+  color: var(--local-color);
+}

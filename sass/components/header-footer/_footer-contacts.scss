@@ -1,17 +1,8 @@
-.footer-address {
-  margin-bottom: 9px;
-  font-style: inherit;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  color: var(--local-color);
-  flex-shrink: 0;
-}
-.footer-list .mail {
+.contacts-f .mail {
   margin-bottom: 9px;
 }
-.footer-mail,
-.footer-tel {
+.contacts-f__mail,
+.contacts-f__tel {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

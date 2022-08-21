@@ -1,0 +1,11 @@
+.header {
+  border-bottom: 1px solid #ececec;
+  background-color: var(--local-color);
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+  &__logo-h {
+    margin-right: 93px;
+  }
+}

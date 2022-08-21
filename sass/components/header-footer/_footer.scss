@@ -3,12 +3,21 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
-  &-all {
+  &__all {
     display: flex;
     align-items: baseline;
   }
-  &-info {
+  &__info {
     flex-grow: 1;
     margin-right: 70px;
+  }
+  &__logo-f {
+    margin-bottom: 20px;
+  }
+  &__addres {
+    margin-bottom: 9px;
+  }
+  &__join {
+    margin-right: 100px;
   }
 }

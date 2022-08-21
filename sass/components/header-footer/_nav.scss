@@ -1,4 +1,4 @@
-.header-nav a {
+.nav a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -12,7 +12,7 @@
   }
 }
 
-.nav-link.current {
+.nav__link.current {
   position: relative;
   color: var(--second-header-color);
 
@@ -28,14 +28,16 @@
     bottom: -1px;
   }
 }
-.nav-list {
+.nav__list {
   display: flex;
+}
+.header__nav {
   li:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-.nav-link a {
+.nav__link a {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;

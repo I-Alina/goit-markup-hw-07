@@ -1,19 +1,23 @@
-.footer-join {
+.join {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  margin-right: 100px;
   color: var(--local-color);
+  &__title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
+  &__icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--local-color);
+  }
 }
-.join {
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-.join-list {
-  display: flex;
-  justify-content: center;
-}
-.join-item {
+.join__item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
@@ -22,8 +26,7 @@
     margin-right: 0px;
   }
 }
-
-.join-link {
+.join__link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -39,10 +42,4 @@
     background-color: var(--second-header-color);
     fill: var(--local-color);
   }
-}
-
-.join-icon {
-  width: 20px;
-  height: 20px;
-  fill: var(--local-color);
 }
