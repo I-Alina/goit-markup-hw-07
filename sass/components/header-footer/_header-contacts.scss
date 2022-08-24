@@ -1,19 +1,17 @@
-.contacts-h {
+.contacts {
   display: flex;
 }
-.header__contacts-h {
+.header__contacts {
   margin-left: auto;
-  .contacts-h__item + .contacts-h__item {
+  .contacts__item + .contacts__item {
     margin-left: 30px;
   }
 }
-.contacts-h__item a {
+.contacts__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-}
-.contacts-h__mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -27,27 +25,13 @@
     color: var(--second-header-color);
   }
 }
-.contacts-h__envelop-icon {
+.contacts__envelop-icon {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: currentColor;
 }
-.contacts-h__tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--header-color);
-  text-decoration: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    color: var(--second-header-color);
-  }
-}
-.contacts-h__tel-icon {
+.contacts__tel-icon {
   width: 10px;
   height: 16px;
   margin-right: 10px;
