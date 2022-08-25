@@ -1,5 +1,4 @@
 .features {
-  justify-content: center;
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #ffffff;
@@ -15,20 +14,29 @@
     font-size: 14px;
     line-height: 1.71;
   }
-}
-
-.features__list {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  &__list {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__icon-antenna::before {
+    background-image: url(../images/antenna.svg);
+  }
+  &__icon-clock::before {
+    background-image: url(../images/clock.svg);
+  }
+  &__icon-laptop::before {
+    background-image: url(../images/after-hero-laptop.svg);
+  }
+  &__icon-astronaut::before {
+    background-image: url(../images/astronaut.svg);
+  }
 }
 .features__item {
   width: 270px;
-
   &:not(:nth-child(4n)) {
     margin-right: 30px;
   }
-
   &::before {
     display: block;
     content: "";
@@ -41,21 +49,4 @@
     background-size: 65px 70px;
     background-position: center;
   }
-}
-
-// .text .container {
-//   justify-content: center;
-// }
-
-.features__antenna::before {
-  background-image: url(../images/antenna.svg);
-}
-.icon-clock::before {
-  background-image: url(../images/clock.svg);
-}
-.icon-laptop::before {
-  background-image: url(../images/after-hero-laptop.svg);
-}
-.icon-astronaut::before {
-  background-image: url(../images/astronaut.svg);
 }
