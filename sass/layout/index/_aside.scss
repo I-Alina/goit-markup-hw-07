@@ -1,41 +1,41 @@
-.aside .container {
+.team {
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
 }
-.aside-title {
+.team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
 }
-.aside-subtitle {
+.team__subtitle {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
-.aside-text {
+.team__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   margin-bottom: 16px;
 }
-.aside {
+.team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
 }
-.section {
-  margin-left: auto;
-  margin-right: auto;
-}
-.aside-list {
+// .section {
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+.team__list {
   display: flex;
   justify-content: center;
 }
-.aside-item {
+.team__item {
   width: 270px;
   text-align: center;
   margin-right: 30px;
@@ -54,7 +54,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.aside-link {
+.soc__link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -72,15 +72,15 @@
     fill: var(--local-color);
   }
 }
-.aside-icon {
+.soc-icon {
   width: 20px;
   height: 20px;
 }
-.icon-list {
+.soc {
   display: flex;
   justify-content: center;
 }
-.icon-item {
+.soc__item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
