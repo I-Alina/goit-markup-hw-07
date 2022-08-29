@@ -1,7 +1,6 @@
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: #f5f4fa;
   .container {
     margin-left: auto;
     margin-right: auto;
@@ -36,6 +35,9 @@
     padding-bottom: 30px;
     justify-content: center;
   }
+}
+.team--color-grey {
+  background-color: #f5f4fa;
 }
 .team__item {
   width: 270px;

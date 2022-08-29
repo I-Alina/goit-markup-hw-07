@@ -1,5 +1,4 @@
 .footer {
-  background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -20,4 +19,7 @@
   &__join {
     margin-right: 100px;
   }
+}
+.footer--dark {
+  background: #2f303a;
 }

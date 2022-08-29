@@ -459,7 +459,7 @@ button {
   color: var(--local-color);
 }
 
-.overlay {
+.hero__overlay {
   display: block;
   max-width: 1600px;
   height: 600px;
@@ -569,7 +569,6 @@ button {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: #f5f4fa;
 }
 .team .container {
   margin-left: auto;
@@ -604,6 +603,10 @@ button {
   padding-top: 30px;
   padding-bottom: 30px;
   justify-content: center;
+}
+
+.team--color-grey {
+  background-color: #f5f4fa;
 }
 
 .team__item {
@@ -710,7 +713,6 @@ button {
 }
 
 .footer {
-  background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -730,6 +732,10 @@ button {
 }
 .footer__join {
   margin-right: 100px;
+}
+
+.footer--dark {
+  background: #2f303a;
 }
 
 .contacts-f .mail {
