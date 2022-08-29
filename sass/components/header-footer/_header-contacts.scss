@@ -1,5 +1,17 @@
 .contacts {
   display: flex;
+  &__envelop-icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: currentColor;
+  }
+  &__tel-icon {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: currentColor;
+  }
 }
 .header__contacts {
   margin-left: auto;
@@ -24,16 +36,4 @@
   &:focus {
     color: var(--second-header-color);
   }
-}
-.contacts__envelop-icon {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  fill: currentColor;
-}
-.contacts__tel-icon {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  fill: currentColor;
 }

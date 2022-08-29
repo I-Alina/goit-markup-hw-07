@@ -1,39 +1,41 @@
 .team {
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-}
-.team__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  margin-bottom: 50px;
-}
-.team__subtitle {
-  margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-}
-.team__text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-  margin-bottom: 16px;
-}
-.team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
-}
-// .section {
-//   margin-left: auto;
-//   margin-right: auto;
-// }
-.team__list {
-  display: flex;
-  justify-content: center;
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &__subtitle {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    margin-bottom: 16px;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
+  &__container {
+    width: 270px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+  }
 }
 .team__item {
   width: 270px;
@@ -48,11 +50,21 @@
     margin-right: 0;
   }
 }
-
-.container .last {
-  width: 270px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.soc {
+  display: flex;
+  justify-content: center;
+  &__item {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+  &__icon {
+    width: 20px;
+    height: 20px;
+  }
 }
 .soc__link {
   display: flex;
@@ -70,21 +82,5 @@
   &:focus {
     background-color: var(--second-header-color);
     fill: var(--local-color);
-  }
-}
-.soc-icon {
-  width: 20px;
-  height: 20px;
-}
-.soc {
-  display: flex;
-  justify-content: center;
-}
-.soc__item {
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
-  &:last-child {
-    margin-right: 0px;
   }
 }

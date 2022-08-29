@@ -2,19 +2,16 @@
 @import "./base/common";
 @import "./utils/visually-hidden";
 @import "./components/backdrop-modal";
-
 @import "./components/header-footer/header";
 @import "./components/header-footer/logo";
 @import "./components/header-footer/nav";
 @import "./components/header-footer/header-contacts";
 @import "./components/header-footer/footer-addres";
-@import "./layout/index/title";
-@import "./components/btn-service";
-@import "./components/overlay";
+@import "./layout/index/hero";
 @import "./layout/index/features";
 @import "./layout/index/works";
-@import "./layout/index/aside";
-@import "./layout/index/commercial";
+@import "./layout/index/team";
+@import "./layout/index/clients";
 @import "./components/header-footer/footer";
 @import "./components/header-footer/footer-contacts";
 @import "./components/header-footer/footer-join";
